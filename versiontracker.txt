@@ -1,0 +1,9 @@
+GRAFIK DEUX [WEBSITE]
+
+V0.0.1
+
+- Initial state
+ - Navbar
+ - Site title
+ - Load Roboto font
+ - Changed the navbar colour
