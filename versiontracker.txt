@@ -2,11 +2,9 @@ GRAFIK DEUX [WEBSITE]
 
 TO-DO
 
-1) Carousel
+1) Kerja section
 
-2) Kerja section
-
-3) Hubungi section
+2) Hubungi section
 
 
 Note: Completed task will be transfered to VX.X.X (TL;DR Deleted from here, the TO-DO list)
@@ -29,3 +27,7 @@ V0.0.1
   
  Font
   - Roboto added
+  
+ Carousel
+  - Trace Logo
+  - Cipta Mockup Interface

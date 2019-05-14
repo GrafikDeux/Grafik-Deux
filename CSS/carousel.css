@@ -1,3 +1,8 @@
+.carousel-inner {
+    
+    transition: 0.3s;
+}
+
 .carousel-inner > .carousel-item { /* Badan carousel */
     
    height: 500px;
@@ -8,13 +13,8 @@
    margin: 0 auto;
 }
 
-.carousel-inner > .carousel-item > .carousel-caption {
+.carousel-inner > .carousel-item > .carousel-caption { /* Background title dan description */
     
     border-radius: 15px;
     background-color: #282828;
-}
-
-.carousel-inner > .carousel-item > .carousel-caption > h1 {
-    
-    
 }
