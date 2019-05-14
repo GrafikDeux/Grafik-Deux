@@ -1,18 +1,31 @@
 GRAFIK DEUX [WEBSITE]
 
+TO-DO
+
+1) Carousel
+
+2) Kerja section
+
+3) Hubungi section
+
+
+Note: Completed task will be transfered to VX.X.X (TL;DR Deleted from here, the TO-DO list)
+---------------------
 V0.0.1
 
-1) Initial state
+--> Initial state
 
  Site
   - Changed the background colour
+  - Added kerja.html
+  - Added hubungi.html
 
  Navbar
   - Changed the navbar colour
   - Item transitions
   
  Site title
-  - Transitions
+  - Transitions (Font size)
   
  Font
   - Roboto added

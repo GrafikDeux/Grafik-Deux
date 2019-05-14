@@ -6,8 +6,9 @@
     <head>
         
         <!-- CSS Link mula -->
-        <link rel = "stylesheet" href = "stylesheet.css">
-        <link rel = "stylesheet" href = "navbar.css">
+        <link rel = "stylesheet" href = "../Grafik-Deux/CSS/stylesheet.css">
+        <link rel = "stylesheet" href = "../Grafik-Deux/CSS/navbar.css">
+        <link rel = "stylesheet" href = "../Grafik-Deux/CSS/carousel.css">
         <!-- CSS Link tamat -->
         
         <!-- Font load mula -->
@@ -26,10 +27,14 @@
         <!-- Bootstrap CSS (4.3.1) -->
         <link rel = "stylesheet" href = "https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
 
+        <!-- jQuery library -->
+        <script src = "https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+
+        <!-- Popper JS -->
+        <script src = "https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+        
         <!-- Bootstrap JavaScript (4.3.1) -->
         <script src = "https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
-        
-        <!-- Tak perlu Popper dan JQuery sebab tak guna pun JS -->
 
     </head>
     <!-- Head tamat -->
@@ -43,7 +48,7 @@
             <div class = "container">
                 
                 <!-- Site title -->
-                <h1 class = "navbar-brand" id = "siteTitle">GRAFIK DEUX</h1>
+                <a href = "index.html"><h1 class = "navbar-brand" id = "siteTitle">GRAFIK DEUX</h1></a>
                 
                 <!-- Item navbar mula -->
                 <ul class = "navbar-nav mr-auto">
@@ -65,7 +70,7 @@
                     <!-- Hubungi navbar -->
                     <li class = "nav-item active">
 
-                        <a class = "nav-link" href = "#">HUBUNGI</a>
+                        <a class = "nav-link" href = "hubungi.html">HUBUNGI</a>
 
                     </li>
                     
@@ -77,11 +82,68 @@
         <!-- Navbar tamat -->    
         </nav>
         
-        <!-- -->
-        <div class = "container">
-        
-            
-            
+        <!-- Carousel Mula -->
+        <div id = "mainCarousel" class = "carousel slide" data-ride = "carousel">
+
+          <!-- Indicators (Penunjuk) Carousel-->
+            <ul class = "carousel-indicators">
+
+                <li data-target = "#mainCarousel" data-slide-to = "0" class = "active"></li>
+
+                <li data-target = "#mainCarousel" data-slide-to = "1"></li>
+
+            </ul>
+
+            <!-- Slideshow (Item) -->
+            <div class = "carousel-inner">
+
+                <div class = "carousel-item active">
+                    
+                    <!-- Gambar Logo (Trace) -->
+                    <img class = "d-block h-100" src = "../Grafik-Deux/Images/Carousel/Logo.svg" alt = "Trace">
+                    
+                    <!-- Nama dan description -->
+                    <div class = "carousel-caption d-none d-md-block">
+                        
+                        <h3>Trace Logo</h3>
+                        
+                        <p>Logo tidak nampak cantik/jelas apabila anda besarkannya? Trace logo anda ke format SVG akan selesaikan semua masalah tersebut!</p>
+                        
+                    </div>
+
+                </div>
+                
+                <div class = "carousel-item">
+                
+                    <img class = "d-block h-100" src = "../Grafik-Deux/Images/Carousel/UI_Design.png" alt = "UI Design">
+                    
+                    <!-- Nama dan description -->
+                    <div class = "carousel-caption d-none d-md-block">
+                        
+                        <h3>Cipta UI/UX Interface</h3>
+                        
+                        <p>Perlukan mockup untuk mencipta interface? Jangan risau! Kami boleh tolong!</p>
+                        
+                    </div>
+                    
+                </div>
+
+            </div>
+
+              <!-- Previous slide control -->
+            <a class = "carousel-control-prev" href = "#mainCarousel" data-slide = "prev">
+
+                <span class = "carousel-control-prev-icon"></span>
+
+            </a>
+
+              <!-- Next slide control -->
+            <a class = "carousel-control-next" href = "#mainCarousel" data-slide = "next">
+
+                <span class = "carousel-control-next-icon"></span>
+
+            </a>
+
         </div>
 
     </body> <!-- Body tamat -->

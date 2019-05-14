@@ -2,3 +2,8 @@ body { /* Tukar background colour website (Utama) */
     
     background: #1f1f1f !important;
 }
+
+.container p { /* Warna text */
+    
+    color: white;
+}
