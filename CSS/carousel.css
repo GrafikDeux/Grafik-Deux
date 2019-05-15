@@ -1,4 +1,4 @@
-.carousel {
+.carousel { /* Limitkan max-witdh carousel. Sepatutnya ni boleh betulkan masalah gambar henfon besar sangat tapi tak jadi tapi takplah. */
     
     max-width: 950px;
     margin: 0 auto;
@@ -12,6 +12,7 @@
 .carousel-inner > .carousel-item > img { /* Tengahkan position gambar kat dalam carousel */
     
    margin: 0 auto;
+   max-height: 100%;
 }
 
 .carousel-inner > .carousel-item > .carousel-caption { /* Background title dan description */
