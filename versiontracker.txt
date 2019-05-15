@@ -6,6 +6,12 @@ TO-DO
 
 2) Hubungi section
 
+3) Hasil Berkualiti
+    -> Modal
+        - Tell about layer naming
+        - Non-destroying method
+        - No rough edges and all that
+
 
 Note: Completed task will be transfered to VX.X.X (TL;DR Deleted from here, the TO-DO list)
 ---------------------
@@ -17,6 +23,7 @@ V0.0.1
   - Changed the background colour
   - Added kerja.html
   - Added hubungi.html
+  - Added Fade In transition on whole site
 
  Navbar
   - Changed the navbar colour

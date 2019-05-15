@@ -1,0 +1,33 @@
+#bU-TitleFirst { /* Title first */
+    
+    font-family: 'Roboto', 'Arial', 'Helvetica';
+    font-weight: 400;
+    color: white;
+    padding-top: 50px;
+    text-align: center;
+}
+
+#bU-TitleDescription {
+    
+    font-family: 'Roboto', 'Arial', 'Helvetica';
+    font-weight: 300;
+    color: white;
+    padding-top: 10px;
+    text-align: center;
+}
+
+#buttonKLLHasilBerkualiti {
+    
+    font-family: 'Roboto', 'Arial', 'Helvetica'
+}
+
+#buttonKLLHasilBerkualitiDiv {
+    
+    padding-top: 15px;
+}
+
+hr.seperatorCarouselDanbu-TitleFirst { /* TODO - HORIZONTAL LINE (LINE 155 AT INDEX.HTML) */
+    
+    border: 1px solid white;
+    margin-top: 50px;
+}
