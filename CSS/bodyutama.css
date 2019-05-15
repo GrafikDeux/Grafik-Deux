@@ -1,4 +1,4 @@
-#bU-TitleFirst { /* Title first */
+#bU-TitleFirst { /* Title first di Body Utama */
     
     font-family: 'Roboto', 'Arial', 'Helvetica';
     font-weight: 400;
@@ -7,7 +7,7 @@
     text-align: center;
 }
 
-#bU-TitleDescription {
+#bU-TitleDescription { /* Decription untuk #bU-TitleFirst */
     
     font-family: 'Roboto', 'Arial', 'Helvetica';
     font-weight: 300;
@@ -16,17 +16,17 @@
     text-align: center;
 }
 
-#buttonKLLHasilBerkualiti {
+#buttonKLLHasilBerkualiti { /* Tukar font Butang Ketahui Lebih Lanjut (KLL) */
     
     font-family: 'Roboto', 'Arial', 'Helvetica'
 }
 
-#buttonKLLHasilBerkualitiDiv {
+#buttonKLLHasilBerkualitiDiv { /* Padding DIV Butang Ketahui Lebih Lanjut (KLL) */
     
     padding-top: 15px;
 }
 
-hr.seperatorCarouselDanbu-TitleFirst { /* TODO - HORIZONTAL LINE (LINE 155 AT INDEX.HTML) */
+hr.seperatorCarouselDanbu-TitleFirst { /* Horizontal line bawah carousel. Tukarkannya kepada warna putih dan ada margin kat belah atas */
     
     border: 1px solid white;
     margin-top: 50px;
