@@ -38,3 +38,7 @@ V0.0.1
  Carousel
   - Trace Logo
   - Cipta Mockup Interface
+  
+ Modal
+  - Night theme applied using CSS
+  - Close button background has been revamped (Colours)
