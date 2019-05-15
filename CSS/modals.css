@@ -1,10 +1,36 @@
-.modal-body > h4 {
+.modal-body > h4 { /* Tajuk di dalam body modal */
     
-    
+    color: aliceblue;
+    font-weight: 800;
 }
 
-.modal-body > p {
+.modal-body > p { /* Kandungan dalam modal */
     
-    color: #1f1f1f;
+    color: aliceblue;
 }
 
+.modal-header { /* Tukar colour modal (header) */
+    
+    background-color: #303030;
+}
+
+.modal-body { /* Tukar colour modal (body) */
+    
+    background-color: #1f1f1f;
+}
+
+.modal-footer { /* Tukar colour modal (footer) */
+    
+    background-color: #1f1f1f;
+}
+
+button.close { /* Warna butang X (Close button) */
+    
+    color: white !important;
+    transition: 0.2s;
+}
+
+button.close:hover { /* Bagi ada background kalau hover kat X (Close button) */
+    
+    background-color: #ED2939 !important;
+}
